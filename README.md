@@ -26,3 +26,5 @@ Eu criei a classe Usuario com atributos como nome, email e senha, implementando 
 
 DAO (Data Access Object):
 Para UsuarioDAO, implemento métodos para inserir, atualizar, buscar e excluir usuários no banco de dados. O mesmo para LojaDAO, ProdutoDAO, CarrinhoDAO, ItemCarrinhoDAO e CompraDAO.
+
+Não impplementei completamente as funções na interface gráfica devido ao pouco tempo para entrega.
