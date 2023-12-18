@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AlterarDadosLojaController">
+   <children>
+      <Text layoutX="226.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Editar minha loja">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="AlterarNomeField" layoutX="64.0" layoutY="93.0" />
+      <TextField fx:id="AlterarCpfField" layoutX="64.0" layoutY="159.0" />
+      <TextField fx:id="AlterarCNPJField" layoutX="64.0" layoutY="200.0" />
+      <TextField fx:id="AlterarNomeLojaField" layoutX="64.0" layoutY="239.0" />
+      <TextField fx:id="AlterarEnderecoField" layoutX="64.0" layoutY="281.0" />
+      <Text layoutX="226.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atualizar nome do dono" />
+      <Text layoutX="226.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar CPF(11)" />
+      <Text layoutX="226.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar CNPJ(11)" />
+      <Text layoutX="226.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar nome da loja" />
+      <Text layoutX="226.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="alterar endereço" />
+      <Button fx:id="atualizarDadosButton" layoutX="107.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleAtualizarDadosButton" text="Atualizar" />
+      <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="-3.0" endY="-310.03863525390625" fill="DODGERBLUE" layoutX="586.0" layoutY="436.0" startX="-152.0" startY="-46.0" stroke="BLACK" />
+      <Button fx:id="voltarButton" layoutX="28.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleVoltarButton" text="voltar" />
+      <TextField fx:id="EmailField" layoutX="64.0" layoutY="125.0" />
+      <Text layoutX="226.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar Email" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ComprarController">
+   <children>
+      <Text layoutX="254.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comprar Produto" />
+      <TextField fx:id="tfUsuarioCpf" layoutX="15.0" layoutY="74.0" />
+      <TextField fx:id="tfValorTotal" layoutX="14.0" layoutY="124.0" />
+      <ComboBox fx:id="cbTipoPagamento" layoutX="14.0" layoutY="254.0" prefWidth="150.0" />
+      <Text layoutX="186.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UsuarioCPF" />
+      <Text layoutX="186.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ValorTotal" />
+      <Text layoutX="186.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forma De Pagamento" />
+      <Button fx:id="btnRealizarCompra" layoutX="32.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleBtnRealizarCompra" text="Confirmar Compra" />
+      <Label fx:id="lblValorTotal" layoutX="60.0" layoutY="149.0" text="Valor Total" />
+      <Button fx:id="VoltarButton" layoutX="525.0" layoutY="22.0" mnemonicParsing="false" text="Voltar" onAction="#handleVoltarButton"/>
+   </children>
+</AnchorPane>

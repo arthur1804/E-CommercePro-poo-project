@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TelaPrincipalController" fx:id="Principal">
+   <children>
+      <Text layoutX="300.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tela Principal" textAlignment="CENTER" wrappingWidth="83.5078125" />
+      <Button fx:id="PerfilButton" layoutX="13.0" layoutY="42.0" mnemonicParsing="false" text="perfil" onAction="#handlePerfilButton" />
+      <Button fx:id="CarrinhoButton" layoutX="13.0" layoutY="94.0" mnemonicParsing="false" text="carrinho" onAction="#handleCarrinhoButton" />
+      <Button fx:id="ExplorarButton" layoutX="13.0" layoutY="149.0" mnemonicParsing="false" text="Explorar" onAction="#handleExplorarButton"/>
+      <Button fx:id="CreateLojaButton" layoutX="13.0" layoutY="204.0" mnemonicParsing="false" text="Criar Loja" onAction="#handleCriarButton" />
+      <Button fx:id="MinhaLojaButtom" layoutX="14.0" layoutY="255.0" mnemonicParsing="false" text="Minha Loja" onAction="#handleMinhaLojaButton" />
+      <Button fx:id="VerHistóricoComprasButton" layoutX="14.0" layoutY="310.0" mnemonicParsing="false" text="Histórico de compras" onAction="#handleHistoricoButton" />
+      <Separator layoutX="272.0" orientation="VERTICAL" prefHeight="486.0" prefWidth="0.0" />
+      <Text layoutX="334.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🚀 Prepare-se para uma revolução no mundo das compras online enquanto você adentra a exuberante plataforma do nosso e-commerce! Não estamos apenas criando uma loja virtual; estamos moldando uma experiência única que redefine como você realiza suas compras online." wrappingWidth="280.115966796875" />
+      <Text layoutX="334.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🌈 E como se isso não bastasse, apresentamos um progresso de compra visual, indicando o caminho das suas escolhas até a finalização da transação. Um indicador dinâmico que reflete não apenas suas compras, mas a jornada única que você está prestes a embarcar." wrappingWidth="289.46728515625" />
+   </children>
+</AnchorPane>

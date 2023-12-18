@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EditarPerfilController">
+   <children>
+      <Button fx:id="VoltarButton" layoutX="30.0" layoutY="26.0" mnemonicParsing="false" text="voltar" onAction="#handleVoltarButton" />
+      <Button fx:id="confirmarButton" layoutX="238.0" layoutY="328.0" mnemonicParsing="false" text="Confirmar Alteração" onAction="#handleConfirmarButton" />
+      <Text layoutX="247.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="editar perfil">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="285.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nome" />
+      <Text layoutX="285.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Text layoutX="284.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha" />
+      <Text layoutX="289.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CPF" />
+      <TextField fx:id="nomeField" layoutX="226.0" layoutY="90.0" />
+      <TextField fx:id="emailField" layoutX="226.0" layoutY="135.0" />
+      <TextField fx:id="senhaField" layoutX="226.0" layoutY="188.0" />
+      <TextField fx:id="CpfField" layoutX="226.0" layoutY="245.0" />
+   </children>
+</AnchorPane>
